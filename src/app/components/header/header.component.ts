@@ -7,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+selectedIndex = 0;
+
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }
 
+  setSelected (id: number) {
+    this.selectedIndex = id;
+  }
 
 }
