@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 
 
@@ -12,9 +13,93 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 18%;
     border-top-style: solid;
     border-top-color: #d28836;
     border-top-width: 1px;
 }
 
+.logo {
+    max-width: 2em;
+    padding-bottom: 3px;
+}
+
+.logohome {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em !important;
+}
+
+.objectlogo {
+    float: left;
+    transition: 150ms;   
+}
+
+.objectlogo:hover {
+    opacity: 0.5;
+}
+
+.container {
+    height: 3em;
+    width: 60%;
+
+}
+
+.directory {
+    float: left;
+    font-size: 85%;
+    padding-top: 2.5px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    padding-left: 1em;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    padding: 0.2em;
+    color: gray;
+    transition: 100ms;
+    text-decoration-line: none;
+    font-size: 85%;
+    
+}
+
+li a:hover {
+    color: white;
+}
+
+
+.help {
+    float: left;
+    font-size: 85%;
+    padding-left: 1.5em;
+    padding-top: 2.5px;
+    display: flex;
+}
+
+.help li {
+    font-size: 85%;
+    padding: 0.2em;
+    color: gray;
+}
+
+.copyright {
+    font-size: 0.9em;
+}
+
+.homelink {
+    color: gray;
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.homelink:hover {
+    color: white;
+}
