@@ -92,3 +92,17 @@ li a::after {
 li a:hover::after {
     width: 100%;
 }
+
+/* ng classes */
+
+.active::before {
+    content: '';
+    display:block;
+    height: 2px;
+    position:relative;
+    top: 42px;
+    width: 5%;
+    background-color: #d28836 !important;
+    transition: 250ms;
+}
+
