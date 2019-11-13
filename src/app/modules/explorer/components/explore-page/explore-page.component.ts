@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+  
+
+
 @Component({
   selector: 'app-explore-page',
   templateUrl: './explore-page.component.html',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExplorePageComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() { 
+  }
 
   ngOnInit() {
   }

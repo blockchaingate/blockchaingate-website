@@ -103,3 +103,13 @@ li a:hover {
 .homelink:hover {
     color: white;
 }
+
+/*ng class*/
+
+.active {
+    padding: 0.2em;
+    color: white !important;
+    transition: 100ms;
+    text-decoration-line: underline !important;
+    font-size: 85%;
+}   
